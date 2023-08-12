@@ -8,15 +8,19 @@ body {
     margin: 0 auto; }
     body section .row {
       align-items: center;
-      height: 100vh; }
+      height: 100%; }
 
 .card {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
   -webkit-transform: skew(-10deg); /* Chrome, Opera */
   -ms-transform: skew(-10deg); /* IE */
       transform: skew(-10deg);
   position: relative;
-  height: 600px;
-  width: 200px;
+  height: 90vh;
+  width: 115%;
+  
   margin: 10px 0;
   transition: ease all 2.3s;
   perspective: 1200px; }
@@ -79,7 +83,8 @@ body {
       transform-style: preserve-3d;
       transition: ease all 2.3s;
       z-index: 3;
-      font-size: 3em;
+      font-size: 30px;
+      text-align: left;
       transform: translateZ(0px); }
     .card .cover .price {
       font-weight: 200;
@@ -118,3 +123,6 @@ body {
       .card .card-back a:hover {
         background-color: white;
         color: #0b0f08; }
+ @media (width: 600px) {
+  
+}
