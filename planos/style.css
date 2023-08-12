@@ -7,6 +7,9 @@
     transition: transform 0.4s;
   
 }
+table{
+    border-radius: 5px;
+}
 .navbar-expand-lg{
 justify-content: none;
 }
