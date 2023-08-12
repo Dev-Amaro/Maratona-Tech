@@ -73,15 +73,15 @@ background: purple;
 }
 
 
-.laranja{
+.roxo{
   background-color: purple;
   transition: all 0.25s ease-in-out;
 }
-.vermelho{
+.azul{
   background-color: blue;
   transition: all 0.25s ease-in-out;
 }
-.purpura{
+.verde{
   background-color: green;
   transition: all 0.25s ease-in-out;
 }
