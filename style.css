@@ -4,6 +4,7 @@ body {
   background-image: url("./imgs/bg.png");
   background-size: cover;
   background-attachment: fixed;
+  background-position-y:-56px ;
 }
 
 body section {
